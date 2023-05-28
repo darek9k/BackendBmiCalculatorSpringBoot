@@ -4,11 +4,12 @@ First project using springboot
 BMI calculator backend. Project built in springboot (initializr ->start.spring.io). 
 
 Adding dependencies in Maven.
-    <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-    
+```
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```    
 Exposing REST services.
   >@RestController
   >@RequestMapping("*path*")
