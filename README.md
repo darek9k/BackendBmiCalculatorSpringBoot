@@ -25,10 +25,6 @@ The BMI calculator provides the following endpoints:
 - `GET /api/bmi/calculate?w=80&h=180` - Calculate BMI using query parameters
 - `POST /api/bmi/calculate` - Calculate BMI using POST request and request body
 - `GET /api/bmi/calculate2` - Alternative endpoint to calculate BMI using query parameters
-- `GET /api/bmi/test1` - Test endpoint
-- `GET /api/bmi/test2` - Test endpoint with a query parameter
-- `GET /api/bmi/test3` - Test endpoint returning a not found response
-- `GET /api/bmi/test4` - Test endpoint with request header and query parameter
 
 ### Usage Examples
 
