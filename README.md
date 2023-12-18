@@ -49,31 +49,6 @@ Content-Type: application/json
 }
 ```
 
-#### Test Endpoint
-
-```http
-GET /api/bmi/test1
-```
-
-#### Test Endpoint with query parameter
-
-```http
-GET /api/bmi/test2?str=example
-```
-
-#### Test Endpoint returning a not found response
-
-```http
-GET /api/bmi/test3
-```
-
-#### Test Endpoint with request header and query parameter
-
-```http
-GET /api/bmi/test4?q=example
-User-Agent: example-user-agent
-```
-
 -------------------------------
 
 # BackendBmiCalculatorSpringBoot
